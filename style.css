@@ -1,0 +1,7 @@
+<div>
+    <button onclick="changePage(1)">1〜50</button>
+    <button onclick="changePage(2)">51〜100</button>
+    <button onclick="changePage(3)">101〜150</button>
+    <button onclick="changePage(4)">151〜200</button>
+    <!-- 必要なだけ増やせる！ -->
+</div>

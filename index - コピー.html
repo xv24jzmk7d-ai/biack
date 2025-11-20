@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <title>単語帳アプリ</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="card">
+        <div id="question">問題が表示されます</div>
+        <button id="showAnswerBtn">答えを見る</button>
+        <div id="answer"></div>
+
+        <button id="knownBtn">覚えた！</button>
+        <button id="nextBtn">次へ</button>
+    </div>
+
+    <!-- ページ切り替えボタン -->
+    <div id="pageButtons" style="margin-top:20px;">
+        <button onclick="changePage(1)">1〜50</button>
+        <button onclick="changePage(2)">51〜100</button>
+        <button onclick="changePage(3)">101〜150</button>
+        <button onclick="changePage(4)">151〜200</button>
+        <!-- 必要に応じて増やせます -->
+    </div>
+
+    <!-- JavaScript 読み込み（必ず body の一番下） -->
+    <script src="app.js"></script>
+</body>
+</html>
